@@ -67,6 +67,15 @@
 }
 
 /* футер */
-.contakt-footer {
+footer{
+    background-color: #2F303A;
+}
+footer .logo-title {
+    color: #fff;
+}
+address {
+    color: #fff;
+}
+address .contakt-footer {
     color: rgba(255, 255, 255, 0.6);
 }

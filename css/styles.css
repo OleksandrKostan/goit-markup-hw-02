@@ -1,0 +1,72 @@
+/* /* основний чорний колір тексту #212121 /* */
+/* /* другорядний сірий колір тексту #757575/* */
+/* /*  синій акцент #2196F3 /* */
+
+/* /*  білий колір фона #FFFFFF /* */
+/* другорядний колір фона #F5F4FA */
+:root {
+--primary-text-color: #212121;
+--title-text-color: #757575;
+--accent-color: #2196F3;
+
+
+}
+.page{
+    background-color: #fff;
+    color: var (--primary-text-color);
+}
+.logo {
+    color: var(--accent-color);
+}
+.logo-title {
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+/* site nav */
+.site-nav a {
+    color:var(--primary-text-color);;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+.contakt a{
+    color: var(--title-text-color);
+}
+.contakt a:hover, 
+.contakt a:focus{
+    color: var(--accent-color)
+} 
+/* hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #fff;
+}
+
+/* section */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+/* ocoбености */
+
+.feature .title{
+    color: var(--primary-text-color);
+}
+.title-text {
+    color: var(--title-text-color);
+}
+/* команда */
+.team-text {
+    color: var(--title-text-color);
+}
+
+/* футер */
+.contakt-footer {
+    color: rgba(255, 255, 255, 0.6);
+}

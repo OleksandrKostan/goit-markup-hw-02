@@ -8,16 +8,21 @@
 --primary-text-color: #212121;
 --title-text-color: #757575;
 --accent-color: #2196F3;
+--primary-white-color: #ffffff;
 
 
 }
 .page{
-    background-color: #fff;
+    background-color: #F5F4FA;
     color: var (--primary-text-color);
+}
+
+.page-header {
+    background-color: var(--primary-white-color);
 }
 .logo {
     color: var(--accent-color);
-}
+text-decoration: none;}
 .logo-title {
     color: var(--primary-text-color);
 }
@@ -45,9 +50,26 @@
     background-color: #2F303A;
 }
 .hero-title {
-    color: #fff;
+    color: var(--primary-white-color);
 }
+/* button */
+.button {
+    color: var(--primary-text-color);
+background-color: var(--primary-white-color);
+}
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);   
+}
+.button.secondary{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+.secondary:hover
 
+{background-color: var(--primary-white-color);
+    color: var(--accent-color);
+}
 /* section */
 
 .section-title {
@@ -65,17 +87,24 @@
 .team-text {
     color: var(--title-text-color);
 }
-
+.commands{
+    background-color: #E5E5E5;
+}
 /* футер */
-footer{
+.footer{
     background-color: #2F303A;
 }
-footer .logo-title {
+.footer .logo-title {
     color: #fff;
 }
-address {
+.address {
     color: #fff;
+}
+.address a:hover,
+.address a:focus {
+    color: var(--accent-color)
 }
 address .contakt-footer {
     color: rgba(255, 255, 255, 0.6);
 }
+
